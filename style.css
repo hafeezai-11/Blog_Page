@@ -208,6 +208,9 @@ ul a {
         justify-items: center;
         align-content: center;
     }
+    .item{
+        text-align: center;
+    }
 
 
 }
