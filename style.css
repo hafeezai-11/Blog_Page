@@ -165,6 +165,35 @@ body {
     color: aqua;
 }
 
+.footer{
+    background-color: #333;
+    padding: 20px;
+    bottom: 0;
+    width: 100%;
+}
+
+.social a {
+    color: rgb(246, 250, 249);
+    padding: 1vw;
+    text-decoration: none;
+    
+}
+.social {
+    padding-top: 5vh;
+    display: flex;
+    justify-content: center;
+   
+
+}
+.fTxt{
+    font-family: 'Poppins', sans-serif;
+    color: whitesmoke;
+    text-align: center;
+    margin-top: 1vh;
+    margin-bottom: 15vh;
+
+}
+
 
 
 
