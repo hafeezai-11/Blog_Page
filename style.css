@@ -249,3 +249,10 @@ ul a {
 
 
 }
+
+@media (width < 750px){
+    .travel-blog{
+        margin-left: 10vw;
+    margin-right: 10vw;
+    }
+}
