@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+:root {
+    --max-width: 1200px;
+    --min-height: 100vh;
+}
+
+html {
+    scroll-behavior: smooth;
+
+}
+
+body {
+    background-color: #fff7eb;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav {
+    height: 80px;
+    display: flex;
+    background-color: #fff;
+    /* justify-content: space-between; */
+    justify-content: center;
+    align-items: center;
+    padding-left: 10vw;
+    padding-right: 10vw;
+
+}
+
+/* .nav .checkbox {
+    display: block;
+}
+
+.nav input {
+    display: none;
+}
+
+.nav .checkbox i {
+    font-size: 2rem;
+    color: var(--primary-color);
+    cursor: pointer;
+} */
+
+.nav h1 {
+
+    color: blue;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.side-menu {
+    display: flex;
+    align-items: center;
+
+}
+
+.nav_bar {
+    height: 7vh;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    background-color: #fff;
+
+}
+
+.nav_bar ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+
+
+}
+
+.nav_bar ul li a {
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    font-weight: bolder;
+    font-size: 20px;
+    position: relative;
+}
+
+.nav_bar ul li a::after {
+    content: '';
+    width: 0;
+    height: 3px;
+    background: #ff004f;
+    /* background: rgb(51, 49, 54); */
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.4s;
+}
+
+.nav_bar ul li a:hover::after {
+    width: 100%;
+
+}
+
+.travel-blog {
+    margin-top: 20vh;
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
+
+.travel-blog h1 {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color: blueviolet;
+}
+
+.contents {
+    margin-top: 10vh;
+    column-gap: 1vw;
+    display: grid;
+    grid-template-columns: repeat(3, 33%);
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+}
+
+.item {
+
+    padding: 10px;
+    /* background-color: #ff004f; */
+
+}
+
+.item img {
+
+    height: 30vh;
+    border-radius: 20px;
+}
+
+.item a {
+    text-decoration: none;
+    color: black;
+}
+
+
+.item a h2{
+    font-size: 20px;
+}
+.item a p{
+    padding-top: 2vh;
+    font-size: 20px;
+    font-family: monospace;
+    color: #b3adcb;
+    
+}
+
+.item a small {
+    font-weight: lighter;
+    color: aqua;
+}
+
+
+
+
+
+
+/* ul {
+    position: absolute;
+    width: 100%;
+    height: calc(100vh - 85px);
+    left: -100%;
+    top: 85px;
+    background-color: #faf5ff;
+    flex-direction: column;
+    justify-content: center;
+    gap: 3rem;
+}
+
+ul a {
+    padding: 0.5rem 1rem;
+    border: 2px solid transparent;
+    text-decoration: none;
+    font-weight: 600;
+    color: var(--text-dark);
+    transition: 0.3s;
+}
+
+.nav #check:checked~ul {
+    left: 0;
+} */
+
+/*  */
+@media (width < 980px) {
+    .contents {
+        display: grid;
+        grid-template-columns: 100%;
+        row-gap: 3vh;
+        justify-content: center;
+        align-items: center;
+        justify-items: center;
+        align-content: center;
+    }
+
+}
+
+/* @media (width < 750px) {
+    
+
+
+
+} */
