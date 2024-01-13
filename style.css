@@ -209,6 +209,8 @@ ul a {
         align-content: center;
     }
     .item{
+         max-width: var(--max-width);
+        text-align: center;
         text-align: center;
     }
 
