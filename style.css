@@ -22,9 +22,14 @@ body {
 }
 
 .nav {
-    height: 80px;
+    width: 100%;
+
+    top: 0;
+    left: 0;
+    background-color: #ffffff;
+    /* background-color: black; */
+
     display: flex;
-    background-color: #fff;
     /* justify-content: space-between; */
     justify-content: center;
     align-items: center;
@@ -60,6 +65,7 @@ body {
 }
 
 .nav_bar {
+
     height: 7vh;
     padding-left: 10vw;
     padding-right: 10vw;
@@ -103,6 +109,10 @@ body {
 
 .travel-blog {
     margin-top: 20vh;
+    min-height: 100vh;
+    max-width: var(--max-width);
+    margin: auto;
+    padding: 1rem;
     padding-left: 10vw;
     padding-right: 10vw;
 }
@@ -143,15 +153,16 @@ body {
 }
 
 
-.item a h2{
+.item a h2 {
     font-size: 20px;
 }
-.item a p{
+
+.item a p {
     padding-top: 2vh;
     font-size: 20px;
     font-family: monospace;
     color: #b3adcb;
-    
+
 }
 
 .item a small {
@@ -200,6 +211,7 @@ ul a {
         justify-items: center;
         align-content: center;
     }
+
 
 }
 
