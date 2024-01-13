@@ -110,8 +110,9 @@ body {
 .travel-blog {
     min-height: 100vh;
     max-width: var(--max-width);
-    margin: auto;
-    padding: 1rem;
+   margin: auto;
+  padding: 1rem;
+
 }
 
 .travel-blog h1 {
@@ -126,9 +127,6 @@ body {
     display: grid;
     grid-template-columns: repeat(3, 33%);
     justify-content: center;
-    align-items: center;
-    justify-items: center;
-    align-content: center;
 }
 
 .item {
@@ -208,8 +206,15 @@ ul a {
         justify-items: center;
         align-content: center;
     }
-    .item{
-         max-width: var(--max-width);
+    .travel-blog{
+        margin-left: 6vw;
+    margin-right: 2vw;
+    }
+
+
+    .item {
+       
+        max-width: var(--max-width);
         text-align: center;
     }
 
