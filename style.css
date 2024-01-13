@@ -108,13 +108,10 @@ body {
 }
 
 .travel-blog {
-    margin-top: 20vh;
     min-height: 100vh;
     max-width: var(--max-width);
     margin: auto;
     padding: 1rem;
-    padding-left: 10vw;
-    padding-right: 10vw;
 }
 
 .travel-blog h1 {
